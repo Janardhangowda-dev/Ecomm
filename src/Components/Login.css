@@ -1,0 +1,46 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-form,
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    border: 1px solid #ccc;
+    border-radius: 60px;
+    background-color: #07a1e9;
+  }
+  
+  .login-form h2,
+  .register-form h2 {
+    margin-bottom: 10px;
+  }
+  
+  .login-form input,
+  .register-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-form button,
+  .register-form button {
+    padding: 8px 16px;
+    background-color: #323533;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover,
+  .register-form button:hover {
+    background-color: #09af11;
+  }
+  

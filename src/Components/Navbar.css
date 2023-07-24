@@ -1,0 +1,67 @@
+.navbar {
+    background-color: #abbbbb;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .navbar-logo a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar-search {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-search input[type="text"] {
+    height: 30px;
+    padding: 5px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  .navbar-search button[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .navbar-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar-item {
+    margin-right: 80px;
+    text-align: center;
+  }
+
+  
+  .navbar-item a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-item a:hover {
+    color: #777;
+  }
+  

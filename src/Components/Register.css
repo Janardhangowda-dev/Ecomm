@@ -1,0 +1,68 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+  }
+  
+  .register-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .register-form input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+  }
+  
+  .register-form button {
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .register-form button:hover {
+    background-color: #45a049;
+  }
+  
+  .register-form .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  
+  .otp-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .otp-container input {
+    margin-right: 10px;
+  }
+  
+  .otp-container button {
+    padding: 5px 10px;
+    background-color: #a7cff1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .otp-container button:hover {
+    background-color: #36ed03;
+  }
+  

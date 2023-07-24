@@ -1,0 +1,52 @@
+/* Styles for the breadcrumbs */
+.breadcrumbs {
+  background-color: #f9f9f9;
+  padding: 10px;
+  color: #333;
+}
+
+/* Styles for the product list */
+.product-list {
+  display: flex;
+}
+
+.category {
+  margin-right: 30px;
+}
+
+.category h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.filters {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.filters div {
+  margin-right: 10px;
+}
+
+.product {
+  margin-bottom: 20px;
+}
+
+.product .title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.product .cost {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.product button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  cursor: pointer;
+}

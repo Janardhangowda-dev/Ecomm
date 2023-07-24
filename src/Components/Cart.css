@@ -1,0 +1,302 @@
+/* Common styles for both forms */
+.cart-table {
+    width: 30%;
+    border-collapse: collapse;
+  }
+  
+  /* .cart-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+  } */
+  
+  .cart-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .cart-table tr:last-child td:first-child {
+    border-bottom-left-radius: 5px;
+  }
+  
+  .cart-table tr:last-child td:last-child {
+    border-bottom-right-radius: 5px;
+  }
+  .product-form thead th{
+    background-color: #f5f5f5;
+  }
+  .product-form tbody tr{
+    background-color: #f5f5f5;
+  }
+  .product-info,
+  .product-description,
+  .quantity-box,
+  .button-box {
+    display: flex;
+    align-items: center;
+    /* background-color: #007bff; */
+  }
+  
+  .product-image-box {
+    width: 100%;
+    height: 100px;
+    margin-right: 20px;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .form-container {
+    flex: 1;
+    margin-right: 50px; 
+  }
+  
+  .cart-container {
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+    }
+  }
+  
+  .btn{
+    width: 100%;
+
+  }
+  .btn1{
+    width: 100%;
+  }
+  /* .btn btn-primary {
+    background-color: #28a745;
+    width: 50%;
+    height: 100%;
+    
+  } */
+  
+  /* Checkout Form styles */
+  .checkout-form {
+    background-color:white;
+    padding: 20px;
+    width: 30%;
+
+  }
+  .checkout-form thead th{
+    background-color:#f2f2f2;
+justify-content: center;  }
+  .checkout-form .th{
+   background-color:#e60000;
+  }
+  .checkout-form h1 {
+    text-align: center;
+    text-decoration:inherit;
+  }
+  
+  .checkout-form input[type="text"] {
+    padding: 5px;
+    width: 50%;
+    box-sizing: border-box;
+    border: 1px inherit #ccc;
+    border-radius: 5px;
+  }
+  .checkout-form .btn {
+    background-color: #007bff;
+  }
+  .product-form .btn {
+    background-color:  #007bff;
+  }
+  .product-form .btn1 {
+    background-color: #28a745;
+  }
+
+  .product-form .bt{
+    background-color: gray;
+  }
+  .checkout-form .btn1 {
+    background-color: #28a745;
+  }
+  .checkout-form tfoot h3 {
+    text-align: left;
+    margin: 0;
+    width: 100%;
+  }
+  
+  /* Media queries for responsiveness */
+  @media screen and (max-width: 768px) {
+    .product-info,
+    .product-description,
+    .quantity-box,
+    .button-box,
+    .btn btn-primary
+     {
+      flex-direction: column;
+      text-align: center;
+      justify-content: space-between;
+      /* height: 100%; */
+
+    }
+  
+    .product-image-box {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  
+    .product-description p {
+      margin: 0;
+    }
+  
+    .checkout-form .btn,
+    .checkout-form .btn1 {
+      width: 100%;
+      
+    }
+  }
+  
+
+  /* button */
+  .custom-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    /* background-color: #f2f2f2; */
+  }
+.product-form {
+  margin: 20px auto;
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.form-box {
+  padding: 20px;
+}
+
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-table th,
+.cart-table td {
+  padding: 10px;
+  border: 1px inherit #ccc;
+}
+.cart-table1 th,
+.cart-table1 td {
+  padding: 10px;
+  border: 1px;
+
+}
+.cart-table1 th {
+  background-color: #f2f2f2;
+  text-align:center;
+}
+
+
+.cart-table th {
+  background-color: #f2f2f2;
+  text-align:center;
+}
+.product-image {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.quantity-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f2f2f2;
+
+
+}
+
+.quantity-box button {
+  padding: 5px 10px;
+  font-size: 16px;
+  width: fit-content;
+  cursor: pointer;
+}
+
+.custom-footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.custom-footer button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  width: max-content;
+
+}
+
+
+
+/* Media queries for responsiveness */
+@media screen and (max-width: 768px) {
+  /* Your existing styles for responsiveness */
+}
+
+/* button */
+
+/* Add this new CSS for the remove icon button */
+.remove-icon {
+  background-color:#f2f2f2 ;
+  border:none;
+
+  cursor: pointer;
+  color: red;
+}
+
+.remove-icon:focus {
+  outline:thick;
+}
+
+.remove-icon i {
+  color: #ae00ff; /* Change the color as per your preference */
+  font-size: 2.5rem;
+  justify-content: flex-end;
+
+}
+
+/* Optional: Add margin or padding around the icon */
+.remove-icon i {
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end;
+
+}
+
+/* Optional: Add hover effect to the icon */
+.remove-icon:hover i {
+  color: #e60000; /* Change the color on hover as per your preference */
+}
+
+
+
+.image-with-description {
+  display: flex;
+  align-items: center;
+}
+
+.image-with-description img {
+  max-width: 50px; /* Adjust the width of the image as needed */
+  margin-left: 10px;
+  margin-top: 5px; /* Add some spacing between the image and the description */
+}
+
+.image-with-description p {
+  margin: 5px;
+}
